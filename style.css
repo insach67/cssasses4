@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    width: auto;
+    height: 30px;
+    background-image: linear-gradient(
+        to right,
+        red,
+        green,
+        yellow
+        
+    );
+}
+.two{
+    display: inline-block;
+    margin-left: 41%;
+    text-decoration: underline;
+    font-size: 26px;
+    font-weight: 600;
+    background-color: cadetblue;
+}
+.three{
+    border: 2px solid red;
+    width:640px;
+    height:70px;
+    border-radius:10px;
+    background-color: cadetblue;
+    margin-left: 28%;
+    margin-top: 21px;
+}
+.five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+   
+.six{ 
+    padding-left: 2rem;
+       
+}
+.sixx{
+    padding-left: 60px;
+}
+.seven{
+    border:1px solid rebeccapurple;
+    width: auto;
+    height:163px;
+    border-radius: 10px;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.box1{
+    border: 2px solid rebeccapurple;
+    border-top: 2px solid black;
+    text-align: center;
+    width:327px;
+    height:78px;
+    margin: 0 30px 0px 30px;
+    padding: 0 21px 0px 21px;
+    border-radius: 8px;
+
+}
+.eight{
+
+    width: auto;
+    height:30px;
+    background-image: linear-gradient(
+        to right,
+        red,
+        yellow,
+        red
+
+    );
+    margin-top: 30px;
+}
+.nine{
+    text-decoration: underline;
+   margin-left: 41%;
+   font-weight: 600;
+   margin-top: 0;
+}
+.ten{
+    margin-top: 20px;
+    border: 2px solid darkkhaki;
+    border-radius: 10px;
+    width: auto;
+    height: fit-content;
+    background-image: radial-gradient(
+     blue,green
+ );
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+
+}
+.eleven{
+   
+    width: 200px;
+    height: fit-content;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin:35px;
+    text-align: center;padding: 15px;
+    background-color: burlywood;
+
+}
+.twelve{ 
+    text-decoration: underline;
+   color: brown;
+   font-size: 22px;
+   text-align: center;
+}
+.gridcont{
+    margin: 30px 0px 30px 0px;
+    display: grid;
+    border: 2px solid black;
+    grid-template-rows:60px 100px 200px;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.a{
+    background-color: rgb(168, 71, 131);
+    color: honeydew;
+    text-align: center;
+    font-size: 25px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.b{
+  background-color: rgb(168, 71, 131);
+  color: honeydew;
+  font-size: 20px;
+
+}
+.c{
+    background-color:goldenrod;
+  color: honeydew;
+  font-size: 20px;
+
+}
+.d{
+    background-color: greenyellow;
+  color: honeydew;
+  font-size: 20px;
+
+}
+.e{
+    background-color: rgb(159, 36, 175);
+    color: honeydew;
+    font-size: 25px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: -4;
+
+}
+.f{
+    background-color: black;
+    color: honeydew;
+    grid-row-start: 2;
+    grid-row-end:4 ;
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+}
+.g{
+    background-color: orchid;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+    grid-column-start:1;
+    grid-column-end: 5;
+    font-weight: 600;
+
+}
+
